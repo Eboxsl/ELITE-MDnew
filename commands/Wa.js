@@ -1,21 +1,3 @@
-/**
-██╗███████╗██╗   ██╗██╗  ██╗██╗   ██╗    ███╗   ███╗██████╗ 
-██║╚══███╔╝██║   ██║██║ ██╔╝██║   ██║    ████╗ ████║██╔══██╗
-██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║    ██╔████╔██║██║  ██║
-██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║    ██║╚██╔╝██║██║  ██║
-██║███████╗╚██████╔╝██║  ██╗╚██████╔╝    ██║ ╚═╝ ██║██████╔╝
-╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═════╝ 
-
- Copyright (C) 2023.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : IZUKU-Md
- * @author : excel <https://github.com/excelottah6>
- * @description : IZUKU,A Multi-functional whatsapp bot.
- * @version 0.0.6
- **/
-
 const { sck, sck1,cmd, jsonformat, botpic, TelegraPh, RandomXP, Config, tlang, warndb, sleep,getAdmin,getBuffer, prefix } = require('../lib')
 const moment = require("moment-timezone");
 const fs = require('fs-extra')
@@ -37,7 +19,7 @@ cmd({
                 citel.reply("Link Invalid, Please Send a valid whatsapp Group Link!");
             let result = text.split(" ")[0].split("https://chat.whatsapp.com/")[1];
             await Void.groupAcceptInvite(result)
-                .then((res) => citel.reply("😁Joined Group"))
+                .then((res) => citel.reply("😁Joined Group /n © 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ᳆⃞⃚🇱🇰ʀͥᴇᷧᴀͫʟ⃟   𝙴𝙻𝙸𝚃𝙴-𝚖𝚍"))
                 .catch((err) => citel.reply("Error in Joining Group"));
 
         }
@@ -100,7 +82,7 @@ cmd({
         citel.reply(`*Check your DM I LEFT SOMETHING THERE🤭 ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: IZUKU-Support*\n*Group Link:* https://chat.whatsapp.com/IpDbNkTpz1l520HHFuS7B7`,
+            caption: `*Group Name: ELITE-Support*\n*Group Link:* https://chat.whatsapp.com/CwKotDYmATM4S3XwZwdTSJ`,
         });
 
     }
@@ -1045,7 +1027,7 @@ cmd({
   try {
     const chatId = citel.chat;
     await Void.groupLeave(chatId);
-    citel.reply("Successfully left the group🙂.");
+    citel.reply("Successfully left the group🙂. /n  © 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ᳆⃞⃚🇱🇰ʀͥᴇᷧᴀͫʟ⃟   𝙴𝙻𝙸𝚃𝙴-𝚖𝚍");
   } catch (error) {
     console.error(error);
     citel.reply("Failed to leave the group.🤦🏽‍♂️");
@@ -1241,7 +1223,8 @@ cmd({ on: "text" }, async(Void, citel) => {
 ☱ *🎚 Level*: ${sck1.level}
 ☱ *🛑 Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ☱ *📍 Role*: *${role}*
-☱ *Enjoy!💐
+☱ *Enjoy!
+ © 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ᳆⃞⃚🇱🇰ʀͥᴇᷧᴀͫʟ⃟   𝙴𝙻𝙸𝚃𝙴-𝚖𝚍
 *━━━━━༺❃༻━━━━
 `,
             }, {
