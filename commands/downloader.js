@@ -113,7 +113,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`😔 Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('*Downloading:* '+titleYt+'/n © 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ᳆⃞⃚🇱🇰ʀͥᴇᷧᴀͫʟ⃟   𝙴𝙻𝙸𝚃𝙴-𝚖𝚍')
+                citel.reply('*Downloading:* '+titleYt)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -208,7 +208,7 @@ axios.get(url, { responseType: 'stream' })
                     }
                   Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
 
-    console.log('File downloaded successfully');
+    console.log('File downloaded successfully /n © 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ᳆⃞⃚🇱🇰ʀͥᴇᷧᴀͫʟ⃟   𝙴𝙻𝙸𝚃𝙴-𝚖𝚍');
 
   
     fs.unlink(filePath, (err) => {
