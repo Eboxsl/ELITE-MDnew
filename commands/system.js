@@ -1,21 +1,3 @@
-/**
-██╗███████╗██╗   ██╗██╗  ██╗██╗   ██╗    ███╗   ███╗██████╗ 
-██║╚══███╔╝██║   ██║██║ ██╔╝██║   ██║    ████╗ ████║██╔══██╗
-██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║    ██╔████╔██║██║  ██║
-██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║    ██║╚██╔╝██║██║  ██║
-██║███████╗╚██████╔╝██║  ██╗╚██████╔╝    ██║ ╚═╝ ██║██████╔╝
-╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═════╝ 
-                                                            
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
- **/
-
 const { addnote,cmd, sck1, delnote, allnotes, delallnote, tlang, botpic, runtime, prefix, Config ,sleep} = require('../lib')
 const { TelegraPh } = require('../lib/scraper')   
 const util = require('util')
@@ -55,7 +37,7 @@ cmd({
                 headerType: 4,
                 contextInfo: {
                     externalAdReply: {
-                        title: 'IZUKU  Session',
+                        title: 'ELITE  Session',
                         body: 'Get you Session ID',
                         thumbnail: log0,
                         mediaType: 2,
@@ -250,17 +232,15 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by EXCEL.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Nethindu .*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
-_This is  ${tlang().title}._
+_This is  ELite Md_
 ${alivemessage}
-━━✥◈✥━━
-◈*Version:-* _0.0.7_
-◈*Uptime:-* _${runtime(process.uptime())}_
-◈*Owner:-* _${Config.ownername}_
-◈*Branch:-* _${Config.BRANCH}_
-━━✥◈✥━━
+◈Version:- _1.0_
+◈Uptime:- _${runtime(process.uptime())}_
+◈Owner:- _${Config.ownername}_
+◈Branch:- _${Config.BRANCH}_
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
