@@ -13,7 +13,7 @@
 <a 
 
 ####  
-Phoenix-MD Multi Device Whatsapp Bot.
+Eliye-MD Multi Device Whatsapp Bot.
 ## <sub>[External Plugins](https://github.com/AbhishekSuresh2/External-Plugins)</sub>
 
 ***
@@ -22,7 +22,7 @@ Phoenix-MD Multi Device Whatsapp Bot.
 
 Fork The Repo
     <br>
-<a href="https://github.com/AbhishekSuresh2/Phoenix-MD/fork"><img title="Phoenix-MD" src="https://img.shields.io/badge/FORK Phoenix MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/Bit-X-TM/ELITE-MD/fork"><img title="Elite-MD" src="https://img.shields.io/badge/FORK Phoenix MD-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 #### Session ID
 
