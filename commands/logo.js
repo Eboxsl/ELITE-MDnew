@@ -3,7 +3,7 @@
  const Config = require('../config')
  const prefix = Config.prefix
  const maker = require('mumaker')
- let cap = `*_Made By ${Config.botname}_*`
+ let cap = ` © 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ᳆⃞⃚🇱🇰ʀͥᴇᷧᴀͫʟ⃟   𝙴𝙻𝙸𝚃𝙴-𝚖𝚍`
      //---------------------------------------------------------------------------
  cmd({ pattern: "deepsea", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
