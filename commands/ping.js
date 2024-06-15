@@ -10,7 +10,7 @@ Secktor.cmd({
 },
 async (Void, citel) => {
     var initial = new Date().getTime();
-    const { key } = await Void.sendMessage(citel.chat, { text: '```Pinging from server```' });
+    const { key } = await Void.sendMessage(citel.chat, { text: '```Pinging from server```/n  © 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈 ᳆⃞⃚🇱🇰ʀͥᴇᷧᴀͫʟ⃟   𝙴𝙻𝙸𝚃𝙴-𝚖𝚍' });
     var final = new Date().getTime();
 
     // Calculate the ping value in milliseconds
