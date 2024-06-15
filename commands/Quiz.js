@@ -36,13 +36,13 @@ const quizQuestions = [
     },
 
     {
-        question: "how old is excel😕?",
+        question: "how old is Nethindu 😕?",
         options: ["A. 21", "B. 15", "C. 17"],
         correctAnswer: "C"
     },
 
     {
-        question: "ANOTHER NAME FOR IZUKU IS?",
+        question: "ANOTHER NAME FOR ELITE IS?",
         options: ["A. London", "B. Berlin", "C. Paris"],
         correctAnswer: "C"
     },
