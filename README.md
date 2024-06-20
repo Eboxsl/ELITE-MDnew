@@ -1,4 +1,4 @@
-   # ELITe-MD
+# ELITe-MD
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Sans&size=50&pause=1000&color=87CEEB&center=true&width=910&height=100&lines=I'M+ELITE-MD;Multi+Divice+Whatsapp+Bot;Coded+By+BIT+X" alt="Typing SVG" /></a>
   
