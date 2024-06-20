@@ -31,7 +31,7 @@ Fork The Repo
 #### Session ID
 
 ##### Use A United States VPN To Solve Qr/Pairing Not Connecting Problem
-<a href="https://izuku-web.onrender.com/"><img title="Phoenix-MD Session ID" src="https://img.shields.io/badge/GET SESSION ID-h?color=black&style=for-the-badge&logo=msi"></a>
+<a href="https://session-generate-lovat.vercel.app/"><img title="Phoenix-MD Session ID" src="https://img.shields.io/badge/GET SESSION ID-h?color=black&style=for-the-badge&logo=msi"></a>
 
 ## Elite-MD Deploy Method
 
