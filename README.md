@@ -13,11 +13,12 @@
 <a 
 
 ####  
-Eliye-MD Multi Device Whatsapp Bot.
+Elite-MD Multi Device Whatsapp Bot.
 ## <sub>[External Plugins](https://github.com/AbhishekSuresh2/External-Plugins)</sub>
 
 ***
-
+#### SEson id (not completed)
+<a href="https://github.com/Bit-X-TM/ELITE-MD/fork">
 #### SETUP
 
 Fork The Repo
