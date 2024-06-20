@@ -17,10 +17,10 @@ Elite-MD Multi Device Whatsapp Bot.
 ## <sub>[External Plugins](https://github.com/AbhishekSuresh2/External-Plugins)</sub>
 
 ***
-#### SEson id (not completed)
+#### SESOJ id (not completed)
 #### SETUP id
 
-<a href="https://session-generate-lovat.vercel.app/"><img title="Elite-MD Session ID" 
+<a href="https://session-generate-lovat.vercel.app/"><img title="Phoenix-MD Session ID" src="https://img.shields.io/badge/GET SESSION ID-h?color=black&style=for-the-badge&logo=msi"> </a>
 
 #### SETUP
 
