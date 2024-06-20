@@ -1,7 +1,7 @@
 {
   "name": "izuku-md",
   "version": "0.0.7",
-  "description": "Multi device whatsapp bot by excelottah6.",
+  "description": "Multi device whatsapp bot by Nethindu.",
   "main": "lib/client.js",
     "engines" : { 
     "npm" : ">=9.7.2",
@@ -13,7 +13,7 @@
     "start": "pm2 start lib/client.js --deep-monitoring --attach --name izuku",
     "stop": "pm2 stop izuku"
   },
-  "author": "excelottah6",
+  "author": "NNethindu",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^9.1.4",
@@ -79,10 +79,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excelottah/IZUKU-MD.git"
+    "url": "git+https://github.com/bit-x-tm/elite-md.git"
   },
   "bugs": {
     "url": "https://github.com/excelottah6/IZUKU-MD/issues"
   },
-  "homepage": "https://github.com/excelottah6/IZUKU-MD#readme"
+  "homepage": "https://github.com/bit-x-tm/elite/md#readme"
 }
