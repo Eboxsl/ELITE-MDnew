@@ -3,26 +3,26 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2347039570336'
+global.owner = process.env.OWNER_NUMBER || '94775686166'
 global.mongodb = process.env.MONGODB_URI || "mongodb://u67wtnui9m87lq4yhmvv:tpelVygzO9NWafGwF0D@bmrkwjjqyq2xfesqxn7z-mongodb.services.clever-cloud.com:2052/bmrkwjjqyq2xfesqxn7z"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
-global.github = 'https://github.com/excelottah6/IZUKU-MD'
+global.github = 'https://github.com/bit-x-tm/elite-md'
 global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
+global.gurl = 'https://instagram.com/ebox@nt' // add your username
 global.sudo = process.env.SUDO || '2347039570336,2348050907760'
 global.devs = '2347039570336,2348050907760';
-global.website = 'https://github.com/excelottah6/IZUKU-Md' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
+global.website = 'http://www.ebox.free.nf/?i=1' //wa.me/+91000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/c8bdeb8c2c10f83532444.png'
 module.exports = {
   
   sessionName:  process.env.SESSION_ID ||  "PASTE YOUR SESSION ID HERE",
-  botname:   process.env.BOT_NAME === undefined ? 'IZUKU BOT' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'excel' : process.env.OWNER_NAME,
-  author:  process.env.PACK_INFO === undefined ? 'excel' : process.env.PACK_INFO.split(";")[0],
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO === undefined ? 'IZUKU-Md' : process.env.PACK_INFO.split(";")[1],
-  autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
+  botname:   process.env.BOT_NAME === undefined ? 'Elite BOT' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'Nethindu ' : process.env.OWNER_NAME,
+  author:  process.env.PACK_INFO === undefined ? 'No name' : process.env.PACK_INFO.split(";")[0],
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
+  packname:  process.env.PACK_INFO === undefined ? 'ELITE-Md' : process.env.PACK_INFO.split(";")[1],
+  autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
   typingprensence:  process.env.TYPING === undefined ? false : process.env.TYPING,
