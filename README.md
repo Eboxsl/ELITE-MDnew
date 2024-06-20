@@ -20,7 +20,7 @@ Elite-MD Multi Device Whatsapp Bot.
 #### SEson id (not completed)
 #### SETUP id
 
-<a href="https://izuku-web.onrender.com/"><img title="Phoenix-MD Session ID" 
+<a href="https://session-generate-lovat.vercel.app/"><img title="Elite-MD Session ID" 
 
 #### SETUP
 
