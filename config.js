@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
 
-//═══════[Required Variables]════════\\
+//═══════[Required Variables for elite]════════\\
 global.owner = process.env.OWNER_NUMBER || '94775686166'
 global.mongodb = process.env.MONGODB_URI || "mongodb://u67wtnui9m87lq4yhmvv:tpelVygzO9NWafGwF0D@bmrkwjjqyq2xfesqxn7z-mongodb.services.clever-cloud.com:2052/bmrkwjjqyq2xfesqxn7z"
 global.port= process.env.PORT || 5000
