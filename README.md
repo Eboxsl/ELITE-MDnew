@@ -18,8 +18,10 @@ Elite-MD Multi Device Whatsapp Bot.
 
 ***
 #### SEson id (not completed)
-<a href="https://github.com/Bit-X-TM/ELITE-MD/fork">
-   
+#### SETUP id
+
+<a href="https://izuku-web.onrender.com/"><img title="Phoenix-MD Session ID" 
+
 #### SETUP
 
 Fork The Repo
@@ -40,7 +42,8 @@ Fork The Repo
 
 ### Codespace Tutorial
 
-<a href="https://youtu.be/ZSwJtaN0BUk?si=FOsYpMs4WbvBFCpY"><img title="Phoenix-MD Deploy CodeSpace" src="https://img.shields.io/badge/Codespace Tutorial-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
+<a href="https://youtu.be/ZSwJtaN0BUk?si=FOsYpMs4WbvBFCpY"><img title="Phoenix-M#### SETUP
+D Deploy CodeSpace" src="https://img.shields.io/badge/Codespace Tutorial-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
 
 ### Deploy Heroku 
 
