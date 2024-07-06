@@ -49,9 +49,9 @@ recordingpresence:  process.env.RECORDING === undefined ? false : process.env.RE
     API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
-  VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
-  LANG: process.env.THEME|| 'IZUKU',
-  WORKTYPE: process.env.WORKTYPE === undefined ? 'private' : process.env.WORKTYPE
+  VERSION: process.env.VERSION === undefined ? '0.1' : process.env.VERSION,
+  LANG: process.env.THEME|| 'ADAM',
+  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
 
